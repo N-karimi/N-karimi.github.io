@@ -1,3 +1,31 @@
-.p{
-    background-color: aqua;
+.navbar1{
+   height: 40px;
+   background-color: rgba(34, 34, 34, 0.93); 
 }
+.p1-1{
+   font-size: 15px;
+   font-weight: 600;
+}
+.p1-2{
+   font-size: 15px;
+   font-weight: 600;
+}
+@media all and (min-width: 1200px){
+   .p1-1{
+      position: relative;
+   } 
+}
+.p1-1::after{
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   width: 0;
+   height: 1px;
+   background-color: white;
+   transition: all 0.3s ease 0s;
+}
+.p1-1:hover::after{
+   width: 100%;
+}
+/* ######################### */

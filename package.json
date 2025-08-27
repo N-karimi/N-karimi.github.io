@@ -16,5 +16,8 @@
     "url": "https://github.com/N-karimi/N-karimi.github.io/issues"
   },
   "homepage": "https://github.com/N-karimi/N-karimi.github.io#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
