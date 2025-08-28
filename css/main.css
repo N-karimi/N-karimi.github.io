@@ -1,31 +1,63 @@
-.navbar1{
-   height: 40px;
-   background-color: rgba(34, 34, 34, 0.93); 
+.navbar1 {
+  height: 40px;
+  background-color: rgba(34, 34, 34, 0.93);
 }
-.p1-1{
-   font-size: 15px;
-   font-weight: 600;
+.p1-1 {
+  font-size: 15px;
+  font-weight: 600;
 }
-.p1-2{
-   font-size: 15px;
-   font-weight: 600;
+.p1-2 {
+  font-size: 15px;
+  font-weight: 600;
 }
-@media all and (min-width: 1200px){
-   .p1-1{
-      position: relative;
-   } 
+@media all and (min-width: 992px) {
+  .p1-1 {
+    position: relative;
+  }
 }
-.p1-1::after{
-   content: "";
-   position: absolute;
-   left: 0;
-   bottom: -1px;
-   width: 0;
-   height: 1px;
-   background-color: white;
-   transition: all 0.3s ease 0s;
+.p1-1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: all 0.3s ease 0s;
 }
-.p1-1:hover::after{
-   width: 100%;
+.p1-1:hover::after {
+  width: 100%;
+}
+
+.navbar2 {
+  height: 48px;
+}
+.p2-1 img {
+  height: 120px;
+}
+@media all and (min-width: 992px) {
+  .p2-3 {
+    width: 117px;
+  }
+  .navbar2 {
+    height: 68px;
+  }
+  .p2-1 img {
+    height: 135px;
+  }
+}
+.p2-4 {
+  height: 48px;
+  width: 821px;
+}
+.p2-a {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+.p2-a:hover {
+  background-color: rgba(67, 61, 61, 0.4);
+  color: black;
 }
 /* ######################### */
