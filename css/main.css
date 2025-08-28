@@ -292,4 +292,6 @@ body {
 .card:hover .card-body p {
   font-weight: bold;
 }
-/* ######################### */
+.slider3-img{
+   height: 316px;
+}
