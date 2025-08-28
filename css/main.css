@@ -1,3 +1,4 @@
+/* ----------------Nav1------------ */
 .navbar1 {
   height: 40px;
   background-color: rgba(34, 34, 34, 0.93);
@@ -29,6 +30,7 @@
   width: 100%;
 }
 
+/* --------------Nav2-------------- */
 .navbar2 {
   height: 48px;
 }
@@ -60,4 +62,104 @@
   background-color: rgba(67, 61, 61, 0.4);
   color: black;
 }
+
+/* -----------Slides under Nav2----------  */
+.slider1 {
+  width: 100%;
+}
+@media all and (max-width: 575px) {
+  .slider1,
+  .slider-img1,
+  .slider-img3 {
+    height: 512px;
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 991px) {
+  .slider1,
+  .slider-img1,
+  .slider-img3 {
+    height: 425px;
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .slider1,
+  .slider-img1,
+  .slider-img3 {
+    height: 450px;
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  .slider1,
+  .slider-img1,
+  .slider-img3 {
+    height: 455px;
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 1400px) {
+  .slider1,
+  .slider-img1,
+  .slider-img3 {
+    height: 512px;
+    overflow: hidden;
+  }
+}
+/* -------------P image1----------------  */
+.image1-p1 {
+  width: 534px;
+  height: 275px;
+}
+@media all and (min-width: 992px) {
+  .image1-p1 {
+    width: 400px;
+    height: 282px;
+  }
+}
+@media all and (max-width: 575px) {
+  .image1-p1 {
+    width: 360px;
+    height: 270px;
+  }
+}
+.a-img1 {
+  width: 114px;
+  height: 48px;
+  background-color: rgb(128, 195, 67);
+  font-weight: 600;
+}
+.p1-image1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.carousel-control {
+  width: 100px;
+}
+/* -------------P image3----------------  */
+.image3-p1 {
+  width: 534px;
+  height: 275px;
+}
+@media all and (min-width: 992px) {
+  .image3-p1 {
+    width: 400px;
+    height: 282px;
+  }
+}
+@media all and (max-width: 575px) {
+  .image3-p1 {
+    width: 360px;
+    height: 270px;
+  }
+}
+.p1-image3 {
+  font-size: 40px;
+  font-weight: 600;
+}
 /* ######################### */
+
+
+
+
